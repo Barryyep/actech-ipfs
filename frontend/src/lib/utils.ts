@@ -26,5 +26,5 @@ export const formatDateFromUnix = (value?: number): string => {
 export const getIpfsGatewayUrl = (cid?: string): string | null => {
   if (!cid) return null;
   const rawCid = cid.replace('ipfs://', '');
-  return `http://127.0.0.1:8080/ipfs/${rawCid}`;
+  return `http://44.211.156.28:3000/file/${rawCid}`;
 };

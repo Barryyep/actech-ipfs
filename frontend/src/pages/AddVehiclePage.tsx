@@ -332,7 +332,7 @@ const AddVehiclePage = () => {
           <button className="primary-btn" type="submit" disabled={submitting || connectionNeeded || !supportedChainId}>
             {submitting ? 'Minting…' : 'Mint Vehicle'}
           </button>
-          <span className="helper-text">IPFS upload requires the local daemon at 127.0.0.1:5001.</span>
+          <span className="helper-text">Files will be uploaded to IPFS via the remote gateway.</span>
         </div>
       </form>
     </section>
