@@ -1,0 +1,16 @@
+{
+  "31337": {
+    "VehicleNFT": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "VehicleEscrow": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "networkId": "31337",
+    "networkName": "localhost",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+  },
+  "11155111": {
+    "VehicleNFT": "0x556B7b18686419D972B1F19db113a3457519Fb93",
+    "VehicleEscrow": "0xe3d68CCf12f4222684DAE2dF6B77dfd677a0d365",
+    "networkId": "11155111",
+    "networkName": "sepolia",
+    "deployer": "0xDAe8FA279c26bFBcfAa5938f0f46E6b055e870Cc"
+  }
+}
